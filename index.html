@@ -9,12 +9,25 @@
 
 <body style="margin:0;padding:0;">
     <style>
+    html {
+        font-size: 16px;
+    }
+
     @font-face {
         font-family: 'HelveticaNeue';
         src: url('https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/fonts/HelveticaNeueLTStd-Md.otf');
     }
+    tr,
+    td,
+    p {
+        font-size: 1rem;
+        font-family: 'HelveticaNeue';
+    }
 
     @media only screen and (max-width: 600px) {
+        table{
+            width: 100% !important;
+        }
         img[class="hide"],
         td[class="hide"] {
             display: none!important;
@@ -23,8 +36,13 @@
         td[class="show"] {
             display: block!important;
         }
+        .get-involved{
+            width: 30%;
+            height: 30%;
+        }
     }
-     @media only screen and (min-width: 601px) {
+
+    @media only screen and (min-width: 601px) {
         img[class="hide"],
         td[class="hide"] {
             display: block!important;
@@ -37,70 +55,73 @@
     </style>
     <table width="650" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" style="margin:0 auto;table-layout:fixed;border-collapse: collapse;" align="center">
         <tr width="100" style="background-color: #EFEFED;" align="center">
-            <td style="padding:20px 90px;font-size: 12px;color:#666666;">&lt;firstname&gt;, would you like to be rewarded for using less electricity during peak times?
-Having difficulty viewing this email? View it online</td>
+            <td style="padding:20px 10%;font-size: .875rem;color:#666666;">&lt;firstname&gt;, would you like to be rewarded for using less electricity during peak times? Having difficulty viewing this email? View it online</td>
         </tr>
         <tr width="100%">
             <td style="width: 100%;height: 90px;" align="left">
-                <img alt="" style="height: 90px;display: block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Logo/EA-Brandmark-Vertical-Byline.png">
+                <img alt="" style="height: 90px;display: block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Logo/EA-Brandmark-Horizontal-Byline.png">
             </td>
         </tr>
         <tr width="100%">
-            <td>
+            <td style="padding:0 !important;">
                 <img class="hide" alt="" style="width: 100%;height:400px;display:block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Image/Hero.png">
-                <img class="show" alt="" style="width: 100%;height:400px;display:block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Image/Hero-mobile.png">
+                <img class="show" alt="" style="width: 100% !important;display:block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Image/Hero-mobile.png">
             </td>
         </tr>
-        <tr width="100%">
-            <td align="center" style="font-family:'HelveticaNeue';padding:20px 0">
+        <tr>
+            <td align="center" style="font-family:'HelveticaNeue';padding:20px 10%">
                 Hi &lt;firstname&gt;,
             </td>
         </tr>
-        <tr width="100%">
-            <td align="center" style="font-family:'HelveticaNeue';padding:0 0 20px 0;">
-                During periods of high energy demand, the grid needs a helping hand. That’s why we’ve launched <b>PowerResponse</b>.*
+        <tr>
+            <td align="center" style="font-family:'HelveticaNeue';padding:0 10% 20px 10%;">
+                During periods of high energy demand, the grid needs a helping hand. That's why we've launched <b>PowerResponse</b>.*
             </td>
         </tr>
         <tr width="100%" bgcolor="#F4F4F4" align="center">
-            <td style="font-family:'HelveticaNeue';color:#84BD00; padding: 30px 0 20px 0">
+            <td style="font-family:'HelveticaNeue';color:#84BD00; padding: 30px 10% 20px 10%;font-size:1.5rem;">
                 Be a part of the solution
             </td>
         </tr>
         <tr width="100%" bgcolor="#F4F4F4" align="center">
-            <td style="font-family:'HelveticaNeue';padding:0 40px 30px 40px">
+            <td style="font-family:'HelveticaNeue';padding:0 10% 30px 10%">
                 <b>PowerResponse</b> is an important program, designed to help us understand whether a community effort can help us to improve grid reliability in times of high demand. Our goal is to find new ways to better use the energy we have, and ensure a stable electricity supply.
             </td>
         </tr>
         <tr width="100%">
-            <td style="font-family:'HelveticaNeue';padding:65px 0 20px 0;font-size:32px;font-weight: bold;" align="center">Here’s how you can get involved</td>
+            <td style="padding:65px 10% 20px 10%;" align="center">
+                <p style="font-family:'HelveticaNeue';font-size:2rem;font-weight: bold;margin:0;">Here's how you can get involved</p>
+            </td>
         </tr>
         <tr width="100%">
-            <td align="center" style="font-family:'HelveticaNeue';padding: 0 0 25px 0">
-                By signing up to <b>PowerResponse</b>, we’ll ask your household to volunteer to reduce electricity usage during a certain time. You’ll get an SMS notification to let you know when you can get involved.
+            <td align="center" style="font-family:'HelveticaNeue';padding: 0 10% 25px 10%">
+                By signing up to <b>PowerResponse</b>, we'll ask your household to volunteer to reduce electricity usage during a certain time. You’ll get an SMS notification to let you know when you can get involved.
             </td>
         </tr>
-        <tr width="100%" height="123">
-            <td width="55" style="display:inline-block;">&nbsp;</td>
-            <td align="center" height="63" width="63" style="border:1px solid #84BD00;border-radius:50%;display:inline-block;">
+        <tr width="100%" height="122">
+            <td width="55" style="display:inline-block;padding:0 !important;">&nbsp;</td>
+            <td class="get-involved" align="center" height="63" width="63" style="border:1px solid #84BD00;border-radius:50%;display:inline-block;padding:0 !important;">
                 <img alt="" style="height: 36px;width: 36px;display:block;margin: 15px 0;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Icon/Calender.png">
+                <p class="show">Up to 20 events per year</p>
             </td>
-            <td width="200" height="65" style="font-family:'HelveticaNeue';height: 65px;line-height: 65px;padding:0 0 0 20px;display:inline-block;">
+            <td class="hide" width="200" height="65" style="font-family:'HelveticaNeue';height: 65px;line-height: 65px;padding:0 0 0 20px !important;display:inline-block;">
                 Up to 20 events per year
             </td>
-            <td align="center" height="63" width="63" style="border:1px solid #84BD00;border-radius:50%;display:inline-block;">
+            <td class="get-involved" align="center" height="63" width="63" style="border:1px solid #84BD00;border-radius:50%;display:inline-block;padding:0 !important;">
                 <img alt="" style="height: 36px;width: 36px;display:block;margin: 15px 0;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Icon/Time.png">
+                <p class="show">1 to 4 hours duration</p>
             </td>
-            <td width="200" height="65" style="font-family:'HelveticaNeue';height: 65px;line-height: 65px;padding:0 0 0 20px;display:inline-block;">
+            <td class="hide" width="200" height="65" style="font-family:'HelveticaNeue';height: 65px;line-height: 65px;padding:0 0 0 20px;display:inline-block;">
                 1 to 4 hours duration
             </td>
         </tr>
         <tr>
             <td width="170" style="display: inline-block;padding:50px 104px 0 55px;" valign="top">
                 <img alt="" style="margin-bottom: 22px;display: block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Icon/card.png">
-                <p style="font-family:'HelveticaNeue';margin-bottom: 22px;">Plus, you’ll be rewarded</p>
+                <p style="font-family:'HelveticaNeue';margin-bottom: 22px;">Plus, you'll be rewarded</p>
                 <p style="font-family:'HelveticaNeue';">If you participate in a <b>PowerResponse</b> event, you could earn bill credits of $5- $20.^</p>
             </td>
-            <td width="310" style="display: inline-block;">
+            <td class="hide" width="310" style="display: inline-block;">
                 <img alt="" style="width: 310px;height: 405px;display: block;" src="https://raw.githubusercontent.com/YangXiaobai/EA-EDM/master/Image/img2.png">
             </td>
         </tr>
